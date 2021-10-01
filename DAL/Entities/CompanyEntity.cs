@@ -10,12 +10,16 @@ namespace DAL.Entities
         public string Address { get; set; }
         public string ZipCode { get; set; }
         public string BankAccount { get; set; }
+
+        //FK
         public int OwnerId { get; set; }
         public int CompanyTypeId { get; set; }
 
-        //Propiedades de navegación
+        //Navigation properties
+        public List<TrademarkEntity> Trademarks { get; set; }
         public OwnerEntity Owner { get; set; }
         public CompanyTypeEntity CompanyType { get; set; }
-        public List<TrademarkEntity> Trademarks { get; set; }
+
+        
     }
 }

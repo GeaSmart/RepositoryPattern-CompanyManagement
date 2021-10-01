@@ -10,6 +10,6 @@ namespace DAL.Entities
         public string Email { get; set; }
 
         //propiedades de navegación
-        public List<CompanyEntity>  { get; set; }
+        public List<CompanyEntity> Companies { get; set; }
     }
 }
