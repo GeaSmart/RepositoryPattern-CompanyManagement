@@ -8,4 +8,10 @@
     <PackageReference Include="AutoMapper" Version="10.1.1" />
   </ItemGroup>
 
+  <ItemGroup>
+    <Folder Include="CompanyType\" />
+    <Folder Include="Trademark\" />
+    <Folder Include="Owner\" />
+  </ItemGroup>
+
 </Project>
