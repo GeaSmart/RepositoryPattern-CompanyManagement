@@ -13,6 +13,7 @@ namespace DAL.Repository
         {
 
         }
+
         public async Task<IEnumerable<CompanyTypeEntity>> GetAllAsync()
         {
             return await FindAllAsync();
