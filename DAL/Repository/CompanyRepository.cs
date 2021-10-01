@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace DAL.Repository
 {
-    public class CompanyRepository : RepositoryBase<CompanyEntity>,ICompanyRepository
+    public class CompanyRepository : RepositoryBase<CompanyEntity>, ICompanyRepository
     {
         public CompanyRepository(ApplicationDBContext context): base(context)
         {
